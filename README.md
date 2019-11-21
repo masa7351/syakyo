@@ -1,5 +1,8 @@
 This is script for 写経.
+
 ----
+
+Empty a file with a specific extension
 
 # setup
 

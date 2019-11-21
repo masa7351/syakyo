@@ -2,7 +2,7 @@ rewriteFiles=('*.js', '*.jsx')
 
 def copyFiles(copyPath, destinationPath):
     from shutil import copytree, ignore_patterns
-    copytree(copyPath, destinationPath, ignore=ignore_patterns('node_modules', '*.gitignore', '*.git', 'README.md', '.vscode'))
+    copytree(copyPath, destinationPath, ignore=ignore_patterns('node_modules', '*.gitignore', '*.git', 'README.md'))
 
 def removeContents(destinationPath):
     from pathlib import Path
